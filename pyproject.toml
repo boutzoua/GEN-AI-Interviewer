@@ -1,0 +1,26 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Boutzoua Mustapha", email = "m.boutzoua01@gmail.com"},
+]
+dependencies = [
+    "langchain",
+    "PyPDF2",
+    "openai",
+    "wave",
+    "streamlit==1.25.0",
+    "tiktoken",
+    "nltk",
+    "audio-recorder-streamlit",
+    "streamlit-option-menu",
+    "streamlit-lottie",
+    "faiss-cpu",
+    "boto3",
+    "Ipython",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
